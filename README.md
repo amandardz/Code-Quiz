@@ -1,7 +1,7 @@
 # Code-Quiz
 
 ## Description
-In this repository, the developer will generate a timed multiple-choice quiz using HTML, CSS, and Javascript.
+In this repository, the developer will generate a timed multiple-choice question coding quiz using HTML, CSS, and Javascript.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -19,11 +19,14 @@ In this repository, the developer will generate a timed multiple-choice quiz usi
 
 ## Usage
 To begin, as a developer, think about how the user will interact with the quiz to help break down steps to write the HTML, CSS, and Javascript necessary for it to perform its function. Below are the steps of how user will interact with the quiz.
-1. The user will click the start button to initiate the quiz and timer.
-2. The user is presented with questions to answer. *If user answers correctly, points are added to score. If user answers incorrectly time is subtracted from the timer*
+1. The user will click the start button to initiate the quiz and timer. <br> <img src="assets\images\startquiz.PNG" alt="Image of quiz">
+2. The user is presented with questions to answer. If user answers correctly, points are added to score. If user answers incorrectly time is subtracted from the timer.
+<br> <img src="assets\images\questions.PNG" alt="Image of a question in the quiz">
 3. The user is presented with score and message that quiz has ended either by completing or running out of time. 
+<br> <img src="assets\images\endquiz.PNG" alt="Image of the end of the quiz">
 4. The user is prompted to input their initial to record their score.
 5. The user may choose to redo quiz.
+<br> <img src="assets\images\score.PNG" alt="Image of scores and clear/redo quiz buttons">
 
 [Click here to see Javascript Quiz](https://amandardz.github.io/Code-Quiz/)
 ## License
