@@ -64,12 +64,17 @@ nav {
 }
 
 #quizContent {
-    height: 200px;
+height: 4~00px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.highScoreContainer {
-    display: block;
+.choiceBtn {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .cardBody {
