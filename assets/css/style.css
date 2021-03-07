@@ -64,7 +64,7 @@ nav {
 }
 
 #quizContent {
-height: 4~00px;
+height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -74,7 +74,9 @@ height: 4~00px;
 .choiceBtn {
     width: 300px;
     padding: 10px;
+    margin: 10px;
     font-size: 20px;
+
 }
 
 .cardBody {
@@ -116,7 +118,6 @@ height: 4~00px;
     text-align: center;
     cursor: pointer;
 }
-
 
 
 button[disabled] {
