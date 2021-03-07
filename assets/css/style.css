@@ -134,3 +134,10 @@ button[disabled] {
 .float-right {
     float: right;
 }
+
+/*Styling for input box*/
+.input {
+    height: 45px;
+    border-radius: rgb(32, 32, 32) 10px;
+    border: solid rgba(0, 0, 0, 0.1);
+}

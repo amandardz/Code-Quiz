@@ -64,7 +64,7 @@ function start() {
 //Global variable for div specific to hold quiz content 
 var questionContainer = document.querySelector("#quizContent")
 
-//Function that will notify user the end of quiz
+//Function that will notify user the end of quiz and can input score
 function endQuiz() {
     clearInterval(timer);
 
@@ -72,7 +72,7 @@ function endQuiz() {
     <center><h1>You have been QUIZZED! 
     <hr><h2>How did you do?</h2>
     <h3>You got a score of ` + score +  ` out of 100.</h3>
-    <input class='input' type="text" id="name" placeholder="Type Initials"> 
+    <input class='input' type="text" id="name" placeholder="Type Your Initials Here"> 
     <button class='btn' onclick="setScore()">Set score!</button></center>`;
 }
 
