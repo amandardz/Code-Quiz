@@ -88,7 +88,7 @@ function getScore() {
     questionContainer.innerHTML ="<h2> <center>" +
     localStorage.getItem("highscoreName") + ` 's highscore is: ` + 
     localStorage.getItem('highscore') + 
-    `<br /> <button class='btn' onclick="clearScore()">Clear score!</button><button class='btn' onclick="resetGame()">Play Again!</button>`
+    `<br /> <button class='btn' onclick="clearScore()">Clear score!</button><button class='btn' onclick="resetGame()">Redo!</button>`
 }
 
 function clearScore() {
