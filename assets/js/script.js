@@ -118,7 +118,7 @@ function next() {
         return;
     }
 
-    var questionText = "<h2>" + questions[questionsIndex].title + "</h2>"
+    var questionText = "<h3>" + questions[questionsIndex].title + "</h3>"
     
 
     for (var i = 0; i < questions[questionsIndex].choices.length; i++) {
