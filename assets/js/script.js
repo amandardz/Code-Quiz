@@ -37,7 +37,8 @@ startBtn.addEventListener("click", start)
 
 function start() {
     document.querySelector(".quizContainer").style.display = "block";
-    document.querySelector(".cardHeader").style.display = "none"
+    document.querySelector(".cardHeader").style.display = "none";
+    document.querySelector(".cardFooter").style.display = "none";
     document.querySelector(".btn").style.display = "none";
 
     timeLeft = 60;
@@ -76,9 +77,10 @@ function setScore() {
 
 
 function getScore() {
+    questionContainer.innerHTML ="<h2> <center>" +
     localStorage.getItem("highscoreName") + ` 's highscore is: ` + 
     localStorage.getItem('highscore') + 
-    `<br> <button class='btn' onclick="clearScore()">Clear score!</button><button class='btn' onclick="resetGame()">Play Again!</button>`
+    `<br /> <button class='btn' onclick="clearScore()">Clear score!</button><button class='btn' onclick="resetGame()">Play Again!</button>`
 }
 
 function clearScore() {
