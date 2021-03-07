@@ -34,7 +34,6 @@ var startBtn = document.querySelector('#startQuiz')
 startBtn.addEventListener("click", start)
 
 
-
 function start() {
     document.querySelector(".quizContainer").style.display = "block";
     document.querySelector(".cardHeader").style.display = "none";
