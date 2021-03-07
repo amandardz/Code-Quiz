@@ -21,6 +21,7 @@ body {
     padding-right: 20px;
 }
 
+/* Styling for header */
 header {
     text-align: center;
     padding: 20px;
@@ -37,7 +38,7 @@ nav {
     float: left;
 }
 
-
+/* Styling for Card */
 .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 5px;
@@ -107,6 +108,7 @@ nav {
     clear: both;
 }
 
+/* Styling for start button */
 .btn {
     border: none;
     background-color: rgb(24, 55, 148);
